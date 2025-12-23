@@ -116,7 +116,7 @@ class UltimateNetAnalyzer(ctk.CTk):
         # Header
         self.header = ctk.CTkFrame(self, height=50, fg_color="transparent")
         self.header.grid(row=0, column=0, columnspan=2, sticky="ew", padx=20, pady=10)
-        ctk.CTkLabel(self.header, text="NETWORK TELEMETRY DECK", font=("Arial", 20, "bold")).pack(side="left")
+        ctk.CTkLabel(self.header, text="AnsCom NETWORK TELEMETRY DECK", font=("Arial", 20, "bold")).pack(side="left")
         self.status_lbl = ctk.CTkLabel(self.header, text="READY", text_color="#00ffcc")
         self.status_lbl.pack(side="left", padx=20)
 
@@ -210,7 +210,7 @@ class UltimateNetAnalyzer(ctk.CTk):
         if self.switch_monitor.get() == 1:
             self.running = True
             threading.Thread(target=self.live_monitor_loop, daemon=True).start()
-            self.status_lbl.configure(text="LIVE MONITORING ACTIVE", text_color="#00ffcc")
+            self.status_lbl.configure(text="LIVE MONITORING ACTIVE                                                                                   Powered by AnsCom             ", text_color="#00ffcc")
             self.log("Live monitoring started.")
         else:
             self.running = False
@@ -339,4 +339,5 @@ class UltimateNetAnalyzer(ctk.CTk):
 
 if __name__ == "__main__":
     app = UltimateNetAnalyzer()
+
     app.mainloop()
