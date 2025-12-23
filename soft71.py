@@ -99,7 +99,7 @@ class LiveGraph(ctk.CTkFrame):
 class UltimateNetAnalyzer(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("AnsCom NETDEPTH ULTIMATE // 24/7 NETWORK MONITOR")
+        self.title("AnsCom NETDEPTH ULTIMATE // 24/7 NETWORK MONITOR                                                                    Version 17.02")
         self.geometry("1400x900")
         
         # State
@@ -343,4 +343,5 @@ if __name__ == "__main__":
     app.mainloop()
 
 # Post AP (Advaced Placements) WORK
+
 
