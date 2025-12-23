@@ -1,6 +1,11 @@
 # anscom-netDepth-ultimate
 A high-performance, multi-threaded network telemetry dashboard built with Python, CustomTkinter, and Matplotlib. Monitors 40+ metrics in real-time.
 # 🌐 NetDepth Ultimate
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+**NetDepth Ultimate** is a professional-grade network analysis tool designed to visualize deep telemetry data. Unlike standard speed tests, NetDepth runs a **dual-threaded engine** that monitors connection stability, hardware health, and bandwidth throughput in real-time without freezing the UI.
 ## My overview demo video explained: https://youtu.be/Okklr9g9bYw
 
 ## System Design   
