@@ -30,6 +30,7 @@ re (Regular expressions/text searching)
 uuid (Getting MAC address)
 collections (Specifically deque for the moving graph buffer)
 datetime (Timestamps)
+
 ### 📦 External Libraries (You MUST install these)
 
 These are not included with Python by default.
@@ -42,15 +43,7 @@ These are not included with Python by default.
 | `requests` | `requests` | HTTP library used here to fetch Geo-IP data. |
 | `numpy` | `numpy` | Math library used for calculating averages and standard deviation. |
 | `matplotlib` | `matplotlib` | Used to draw the live moving graphs. |
-### 📦 External Libraries (You MUST install these)
-These are not included with Python by default.
-Import Name	Pip Package Name	                            Usage
-customtkinter	customtkinter	                    The modern, dark-mode GUI framework.
-speedtest	speedtest-cli	               Performs the upload/download bandwidth test. <br>(⚠️ Note: Install speedtest-cli, not speedtest)
-psutil	psutil	Fetches system stats like CPU, RAM, and network usage.
-requests	requests	HTTP library used here to fetch Geo-IP data.
-numpy	numpy	Math library used for calculating averages and standard deviation.
-matplotlib	matplotlib	Used to draw the live moving graphs.
+
 
 
 ## ✨ Key Features
