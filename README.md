@@ -1,5 +1,5 @@
 # anscom-netDepth-ultimate
-A high-performance, multi-threaded network telemetry dashboard built with Python, CustomTkinter, and Matplotlib. Monitors 40+ metrics in real-time.
+A high-performance, multi-threaded network telemetry dashboard built with Python, CustomTkinter, and Matplotlib. Monitors 40+ metrics in real-time. -->> use soft1.py to run the code.
 # 🌐 NetDepth Ultimate
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
