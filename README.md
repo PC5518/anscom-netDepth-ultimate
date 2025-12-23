@@ -18,6 +18,39 @@ A high-performance, multi-threaded network telemetry dashboard built with Python
 **NetDepth Ultimate** is a professional-grade network analysis tool designed to visualize deep telemetry data. Unlike standard speed tests, NetDepth runs a **dual-threaded engine** that monitors connection stability, hardware health, and bandwidth throughput in real-time without freezing the UI.
 <img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/464f76c3-c9ca-44fb-a9e6-c7994993961d" /> <img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/b3de1880-0d0c-4e12-bd6e-c72814490028" />
 
+## ⚠️NOTE:
+🐍 Standard Libraries (Do NOT install these)
+These come pre-installed with Python. You do not need to do anything for them.
+threading (Runs code in parallel)
+socket (Network connections)
+time (Time delays)
+platform (OS detection)
+subprocess (Running system commands)
+re (Regular expressions/text searching)
+uuid (Getting MAC address)
+collections (Specifically deque for the moving graph buffer)
+datetime (Timestamps)
+### 📦 External Libraries (You MUST install these)
+
+These are not included with Python by default.
+
+| Import Name | Pip Package Name | Usage |
+| :--- | :--- | :--- |
+| `customtkinter` | `customtkinter` | The modern, dark-mode GUI framework. |
+| `speedtest` | **`speedtest-cli`** | Performs the upload/download bandwidth test. <br>*(⚠️ Note: Install `speedtest-cli`, not `speedtest`)* |
+| `psutil` | `psutil` | Fetches system stats like CPU, RAM, and network usage. |
+| `requests` | `requests` | HTTP library used here to fetch Geo-IP data. |
+| `numpy` | `numpy` | Math library used for calculating averages and standard deviation. |
+| `matplotlib` | `matplotlib` | Used to draw the live moving graphs. |
+### 📦 External Libraries (You MUST install these)
+These are not included with Python by default.
+Import Name	Pip Package Name	                            Usage
+customtkinter	customtkinter	                    The modern, dark-mode GUI framework.
+speedtest	speedtest-cli	               Performs the upload/download bandwidth test. <br>(⚠️ Note: Install speedtest-cli, not speedtest)
+psutil	psutil	Fetches system stats like CPU, RAM, and network usage.
+requests	requests	HTTP library used here to fetch Geo-IP data.
+numpy	numpy	Math library used for calculating averages and standard deviation.
+matplotlib	matplotlib	Used to draw the live moving graphs.
 
 
 ## ✨ Key Features
