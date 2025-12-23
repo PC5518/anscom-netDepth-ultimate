@@ -9,6 +9,8 @@ A high-performance, multi-threaded network telemetry dashboard built with Python
 ## My overview demo video explained: https://youtu.be/Okklr9g9bYw
 
 ## System Design   
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/16e58667-c177-4de3-a204-04f73aa475f4" />
+
 <img width="1719" height="892" alt="image" src="https://github.com/user-attachments/assets/39003bca-60f3-40ae-a6ab-be56bcdabf83" />
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
